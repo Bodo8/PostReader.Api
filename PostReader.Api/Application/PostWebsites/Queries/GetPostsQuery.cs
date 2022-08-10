@@ -31,11 +31,30 @@ namespace PostReader.Api.Application.PostWebsites.Queries
 
         public async Task<PaginatedList<PostWebsiteDto>> Handle(GetPostsQuery request, CancellationToken cancellationToken)
         {
-            string word = request.Sentence.Replace(" ", "%20");
-            List<PostWebsite> posts = await _websitesReaderService.GetPosts(word, cancellationToken);
-            List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
+            //string word = request.Sentence.Replace(" ", "%20");
+            //List<PostWebsite> posts = await _websitesReaderService.GetPosts(word, cancellationToken);
+            //List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
 
-            return _paginationListService.GetPaginatedList(postsDto, 1, 25);
+            //return _paginationListService.GetPaginatedList(postsDto, 1, 25);
+
+            return GetItemList();
+        }
+
+        private PaginatedList<PostWebsiteDto> GetItemList()
+        {
+            List<PostWebsiteDto> posts = new();
+
+            for (int i = 0; i < 60; i++)
+            {
+                posts.Add(new PostWebsiteDto()
+                {
+                    Title = "For displaying the records, an HTML Table is used. A loop will be executed over the Customers property ",
+                    Author = "Name of the Controller",
+                    FirstPublicationDate = new DateTime(2022, 08, 10)
+                });
+            }
+
+            return _paginationListService.GetPaginatedList(posts, 1, 25);
         }
     }
 }

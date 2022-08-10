@@ -23,5 +23,12 @@ namespace PostReader.Api.Controllers
             return View(posts);
         }
 
+        [HttpGet()]
+        public async Task<IActionResult> GetPagination([FromQuery] GetPaginationPageQuery query)
+        {
+            var posts = await Mediator.Send(query);
+
+            return View("Search",posts);
+        }
     }
 }
