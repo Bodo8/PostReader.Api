@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Search Word";
+}
+@model PostWebsite
+
+<div asp-validation-summary="ModelOnly"></div>
+
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+    </div>
+    <form action="/WebsitesReader/Search" method="get">
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+        <input id="sentence" name="sentence" type="text" value="" />
+        <input type="submit" />
+    </form>
+</body>
