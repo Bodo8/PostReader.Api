@@ -1,0 +1,79 @@
+﻿@using PostReader.Api.Application.PostWebsites.Queries
+@{
+    ViewData["Title"] = "Publications";
+}
+@model PostReader.Api.Common.CommonModels.PaginatedList<PostWebsiteDto>
+@{
+    string totalCount = Model.TotalCount.ToString();
+}
+
+<div class="body">
+    <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">Znalezione publikacje:</li>
+        <li class="list-group-item"></li>
+    </ul>
+    @if (Model.Items.Count > 0)
+    {
+        <div class="alert alert-primary" role="alert">
+          Zanaleziona ilość publikacji: @totalCount
+      </div>
+
+        @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            <div class="card">
+                <div class="list-group">
+                    <a class="list-group-item" id="ResultRow">
+                        <div class="d-flex w-100 justify-content-between">
+                     <h6 class="mb-1">
+                         <span class="list-group-text">Tytuł: </span>@Html.DisplayFor(modelItem => Model.Items[i].Title)
+                     </h6>
+                     </div>
+                     <p class="mb-1">
+                         <span class="list-group-text">Autorzy: </span>@Html.DisplayFor(modelItem => Model.Items[i].Author).</p>
+                     <small class="text-muted">
+                          @{
+                            string date = Model.Items[i].FirstPublicationDate.ToString("yyyy-MM-dd");
+                        }
+                        <span class="list-group-text">Data pierwszej publikacji: </span>@Html.DisplayFor(modelItem => date).
+                     </small>
+                    </a>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+    <h3>Brak pasujących publikacji</h3>
+    }
+    
+    @{
+        string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
+        string nextDisabled = Model.HasNextPage ? "" : "disabled";
+        string currentPage = Model.PageIndex.ToString();
+        string totalPages = Model.TotalPages.ToString();
+    }
+    
+    <div class="footer">
+        <nav aria-label="...">
+    <ul class="pagination">
+    <li class="page-item @prevDisabled">
+      <a class="page-link" 
+      href="@Url.Action("getPagination","WebsitesReader", new {pageIndex=Model.PageIndex-1})">Previous</a>
+    </li>
+    <li class="page-item active" aria-current="page"><p class="page-link">@currentPage</p>
+        </li>
+    <li class="page-item  @nextDisabled">
+      <a class="page-link" id="NextPage"
+      href="@Url.Action("getPagination","WebsitesReader", new {pageIndex=Model.PageIndex+1})">Next</a>
+    </li>
+    <li class="page-item">
+        <a class="page-link disabled">...</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" id="totalPages"
+      href="@Url.Action("getPagination","WebsitesReader", new {pageIndex=Model.TotalPages})">@totalPages</a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>

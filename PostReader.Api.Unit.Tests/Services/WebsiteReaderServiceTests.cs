@@ -39,7 +39,7 @@ namespace PostReader.Api.Unit.Tests.Services
         public async void GetPosts_ReturnsExpectedNumberOfPosts()
         {
             //arrange 
-            string posts = File.ReadAllText(".eurJson.txt");
+            string posts = File.ReadAllText("..\\..\\..\\assets\\.eurJson.txt");
             _requestWebsiteServicesMock.MakeGetRequestAsync(
                 Arg.Any<string>(), CancellationToken.None, Arg.Any<bool>()).Returns(Task.FromResult(posts)
                 );

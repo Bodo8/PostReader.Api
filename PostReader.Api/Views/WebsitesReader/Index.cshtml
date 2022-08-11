@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Search Word";
+    ViewData["Title"] = "Search Publications";
 }
 @model PostWebsite
 
@@ -9,9 +9,20 @@
     <div class="text-center">
         <h1 class="display-4">Welcome</h1>
     </div>
-    <form action="/WebsitesReader/Search" method="get">
-        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
-        <input id="sentence" name="sentence" type="text" value="" />
-        <input type="submit" />
+     @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+    <form action="/WebsitesReader/searchPublications" method="get">
+       
+        <div class="col-md-6">
+        <label for="sentence" class="form-label">Podaj szukane słowa lub tytuły publikacji</label>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+        <input id="Sentence" name="Sentence" type="text"
+            class="form-control "value="" placeholder="Wpisz szukane słowa"/>
+           </div>
+        <div class="col-md-2">
+        <button type="submit" id=Search class="btn btn-primary">wyszukaj</button>
+        </div>
+         </div>
     </form>
 </body>

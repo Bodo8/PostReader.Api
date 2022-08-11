@@ -13,7 +13,7 @@ namespace PostReader.Api.Controllers
         }
 
         [HttpGet()]
-        public async Task<IActionResult> Search([FromQuery] GetPostsQuery query)
+        public async Task<IActionResult> searchPublications([FromQuery] GetPostsQuery query)
         {
             if (!ModelState.IsValid)
                 return View("Index");
@@ -24,11 +24,11 @@ namespace PostReader.Api.Controllers
         }
 
         [HttpGet()]
-        public async Task<IActionResult> GetPagination([FromQuery] GetPaginationPageQuery query)
+        public async Task<IActionResult> getPagination([FromQuery] GetPaginationPageQuery query)
         {
             var posts = await Mediator.Send(query);
 
-            return View("Search",posts);
+            return View("searchPublications", posts);
         }
     }
 }

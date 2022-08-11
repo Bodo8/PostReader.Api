@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostReader.Api", "PostReader.Api\PostReader.Api.csproj", "{CAB5E548-2141-4007-904D-2E4AF5E3FE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostReader.Api.Unit.Tests", "PostReader.Api.Unit.Tests\PostReader.Api.Unit.Tests.csproj", "{7D7A27E5-EBD8-49C5-8993-DAF8AE1D0D3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostReader.Api.Unit.Tests", "PostReader.Api.Unit.Tests\PostReader.Api.Unit.Tests.csproj", "{7D7A27E5-EBD8-49C5-8993-DAF8AE1D0D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostReader.Api.AutomatedUI.Tests", "PostReader.Api.AutomatedUI.Tests\PostReader.Api.AutomatedUI.Tests.csproj", "{E74E8635-98B2-4DA7-86E3-E39BE226E349}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D7A27E5-EBD8-49C5-8993-DAF8AE1D0D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7A27E5-EBD8-49C5-8993-DAF8AE1D0D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7A27E5-EBD8-49C5-8993-DAF8AE1D0D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74E8635-98B2-4DA7-86E3-E39BE226E349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74E8635-98B2-4DA7-86E3-E39BE226E349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74E8635-98B2-4DA7-86E3-E39BE226E349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74E8635-98B2-4DA7-86E3-E39BE226E349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,20 +31,22 @@ namespace PostReader.Api.Application.PostWebsites.Queries
 
         public async Task<PaginatedList<PostWebsiteDto>> Handle(GetPostsQuery request, CancellationToken cancellationToken)
         {
-            //string word = request.Sentence.Replace(" ", "%20");
+            string word = request.Sentence.Replace(" ", "%20");
             //List<PostWebsite> posts = await _websitesReaderService.GetPosts(word, cancellationToken);
-            //List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
+           // List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
 
-            //return _paginationListService.GetPaginatedList(postsDto, 1, 25);
+           // return _paginationListService.GetPaginatedList(postsDto, 1, 25);
 
-            return GetItemList();
+            return GetItemList(); // !!!!
         }
 
+
+        //test !!!!
         private PaginatedList<PostWebsiteDto> GetItemList()
         {
             List<PostWebsiteDto> posts = new();
 
-            for (int i = 0; i < 60; i++)
+            for (int i = 0; i < 62; i++)
             {
                 posts.Add(new PostWebsiteDto()
                 {
