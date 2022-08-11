@@ -14,7 +14,7 @@
     </ul>
     @if (Model.Items.Count > 0)
     {
-        <div class="alert alert-primary" role="alert">
+        <div class="alert alert-primary" id="totalCount" role="alert">
           Zanaleziona ilość publikacji: @totalCount
       </div>
 
@@ -43,7 +43,7 @@
     }
     else
     {
-    <h3>Brak pasujących publikacji</h3>
+    <h3 id="NoRecords">Brak pasujących publikacji</h3>
     }
     
     @{
