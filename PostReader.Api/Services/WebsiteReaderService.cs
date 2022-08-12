@@ -58,6 +58,9 @@ namespace PostReader.Api.Services
 
         private static List<Result> GetDeserializedJson(string content)
         {
+            if(content == null || !content.Contains("{") || !content.Contains("}"))
+                return new List<Result>();
+
             ResultObj? deserialized = JsonConvert.DeserializeObject<ResultObj>(content);
 
             if (deserialized == null 
