@@ -14,15 +14,17 @@ namespace PostReader.Api.AutomatedUI.Tests
     {
         private readonly IWebDriver _driver;
         private readonly DefaultWait<IWebDriver> _fluentWait;
+        private const string URL = "https://localhost:7133/WebsitesReader";
 
         public AutomatedUITests()
         {
             _driver = new ChromeDriver();
             _fluentWait = new DefaultWait<IWebDriver>(_driver);
-            _fluentWait.Timeout = TimeSpan.FromSeconds(5);
+            _fluentWait.Timeout = TimeSpan.FromSeconds(8);
             _fluentWait.PollingInterval = TimeSpan.FromMilliseconds(250);
             _fluentWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
             _fluentWait.Message = "Element to be searched not found";
+            _driver.Navigate().GoToUrl(URL);
         }
 
         public void Dispose()
@@ -34,19 +36,14 @@ namespace PostReader.Api.AutomatedUI.Tests
         [Fact]
         public void Index_WhenExecuted_ReturnsSearchView()
         {
-            _driver.Navigate()
-                .GoToUrl("https://localhost:7133/WebsitesReader");
-
             Assert.Equal("Search Publications - PostReader.Api", _driver.Title);
         }
 
         [Fact]
         public void SearchPublications_WhenExecuted_ReturnsTotalCountPublication()
         {
-            _driver.Navigate()
-                .GoToUrl("https://localhost:7133/WebsitesReader");
             _driver.FindElement(By.Id("Sentence"))
-                .SendKeys("Cyclosporin dermatology Covid-19");
+                .SendKeys("home car kitchen office mapping");
             _driver.FindElement(By.Id("Search")).Click();
             var rowsElement = _fluentWait.Until(x => x.FindElements(By.Id("ResultRow")));
             int rows = rowsElement.Count;
@@ -59,7 +56,7 @@ namespace PostReader.Api.AutomatedUI.Tests
 
             for (int i = 1; i < totalPages; i++)
             {
-                IWebElement link = _fluentWait.Until(x => x.FindElement(By.LinkText("Next")));
+                IWebElement link = _driver.FindElement(By.LinkText("Next"));
                 string url = link.GetAttribute("href");
                 _driver.Navigate().GoToUrl(url);
                 var rowElement = _fluentWait.Until(x => x.FindElements(By.Id("ResultRow")));
@@ -72,8 +69,6 @@ namespace PostReader.Api.AutomatedUI.Tests
         [Fact]
         public void SearchPublications_WhenExecuted_ReturnsMessageAboutLackOfPublication()
         {
-            _driver.Navigate()
-                .GoToUrl("https://localhost:7133/WebsitesReader");
             _driver.FindElement(By.Id("Sentence"))
                 .SendKeys("gdfghghfffff");
             _driver.FindElement(By.Id("Search")).Click();

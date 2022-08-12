@@ -15,11 +15,15 @@ namespace PostReader.Api.Unit.Tests.MotherObjects
             {
                 BaseUrl = "http://europepmc.org/",
                 UrlBasePart = "search?query=",
+                UrlBaseEnd = "&page=",
                 UrlAjaxFirst = "api/get/articleApi?query=",
-                UrlAjaxMiddle = "&cursorMark=*&format=json&pageSize=",
+                UrlAjaxCursor = "&cursorMark=",
+                UrlAjaxMiddle = "&format=json&pageSize=",
                 UrlAjaxEnd = "&sort=Relevance&synonym=FALSE",
                 DefaultListSize = 25,
-                RegexQuntity = "(hitCount.:)(?<values>.[^,]*)"
+                MaxRequstQuantity = 50,
+                RegexQuntity = "(hitCount.:)(?<values>.[^,]*)",
+                RegexNext = "(nextCursorMark.:.)(?<values>[^\"]*)"
             };
         }
     }

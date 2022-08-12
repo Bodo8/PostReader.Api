@@ -36,24 +36,24 @@ namespace PostReader.Api.Unit.Tests.Services
         }
 
         [Fact]
-        public async void GetPosts_ReturnsExpectedNumberOfPosts()
+        public async void GetPosts_ReturnsTwentyThreeOfPosts()
         {
             //arrange 
-            string posts = File.ReadAllText("..\\..\\..\\assets\\.eurJson.txt");
+            string posts = File.ReadAllText("..\\..\\..\\assets\\.euroJson.txt");
             _requestWebsiteServicesMock.MakeGetRequestAsync(
                 Arg.Any<string>(), CancellationToken.None, Arg.Any<bool>()).Returns(Task.FromResult(posts)
                 );
-            string sentence = "test";
-            int ExpectedNumberOfPosts = 95;
+            string sentence = "home car kitchen office mapping dictionary";
+            int ExpectedNumberOfPosts = 23;
 
             //act
             var actual = await _sut.GetPosts(sentence, CancellationToken.None);
 
             //assert
             actual.Count.Should().Be(ExpectedNumberOfPosts);
-            actual.First().Title.Should().Be("Haemorrhagic bullous pyoderma gangrenosum following COVID-19 vaccination.");
-            actual.First().Author.Should().Be("Hung YT, Chung WH, Tsai TF, Chen CB.");
-            actual.First().FirstPublicationDate.Should().Be(new DateTime(2022, 4, 18));
+            actual.First().Title.Should().Be("The Privileged Life of a Theoretical Observer.");
+            actual.First().Author.Should().Be("Gough D.");
+            actual.First().FirstPublicationDate.Should().Be(new DateTime(2022, 7, 26));
         }
 
         [Fact]

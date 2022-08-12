@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
-using AutoMapper.QueryableExtensions;
 using MediatR;
 using PostReader.Api.Common.CommonModels;
-using PostReader.Api.Common.Mappings;
 using PostReader.Api.Models;
 using PostReader.Api.Services.Interfaces;
 
@@ -36,27 +34,6 @@ namespace PostReader.Api.Application.PostWebsites.Queries
             List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
 
             return _paginationListService.GetPaginatedList(postsDto, 1, 25);
-
-           // return GetItemList(); // !!!!
-        }
-
-
-        //test !!!!
-        private PaginatedList<PostWebsiteDto> GetItemList()
-        {
-            List<PostWebsiteDto> posts = new();
-
-            for (int i = 0; i < 62; i++)
-            {
-                posts.Add(new PostWebsiteDto()
-                {
-                    Title = "For displaying the records, an HTML Table is used. A loop will be executed over the Customers property ",
-                    Author = "Name of the Controller",
-                    FirstPublicationDate = new DateTime(2022, 08, 10)
-                });
-            }
-
-            return _paginationListService.GetPaginatedList(posts, 1, 25);
         }
     }
 }

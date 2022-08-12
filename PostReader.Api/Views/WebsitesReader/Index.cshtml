@@ -9,9 +9,17 @@
     <div class="text-center">
         <h1 class="display-4">Welcome</h1>
     </div>
+    <div class="text-center">
+    <div class="card-header col-md-8">
+  <div class="card-body"><h5>
+    Aplikacja umożliwia wyszukiwanie pubikacji, artykułów znajdujących się w servisie www.europepmc.org.
+    Wynik wyszukiwanai to: Tytuł publikacji, autorzy, data pierwszej publikacji.
+    </h5>
+  </div>
+</div>
+</div>
      @Html.ValidationSummary(false, "", new { @class = "text-danger" })
     <form action="/WebsitesReader/searchPublications" method="get">
-       
         <div class="col-md-6">
         <label for="sentence" class="form-label">Podaj szukane słowa lub tytuły publikacji</label>
         </div>
