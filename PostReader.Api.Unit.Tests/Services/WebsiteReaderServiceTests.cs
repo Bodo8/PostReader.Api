@@ -60,7 +60,7 @@ namespace PostReader.Api.Unit.Tests.Services
         public async void GetPosts_ReturnsAnyPosts()
         {
             //arrange 
-            string posts = "{\"test\": 1}";
+            string posts = "test";
             _requestWebsiteServicesMock.MakeGetRequestAsync(
                 Arg.Any<string>(), CancellationToken.None, Arg.Any<bool>()).Returns(Task.FromResult(posts)
                 );

@@ -16,7 +16,12 @@ namespace PostReader.Api.Services
         private readonly IMapper _mapper;
         private readonly EuropePmcSettings _euroPmcSettings;
 
-        public WebsiteReaderService(IRequestWebsiteService requestWebsiteService, IMapper mapper, EuropePmcSettings euroPmcSettings)
+        public WebsiteReaderService
+            (
+            IRequestWebsiteService requestWebsiteService,
+            IMapper mapper,
+            EuropePmcSettings euroPmcSettings
+            )
         {
             _requestWebsiteService = requestWebsiteService;
             _euroPmcSettings = euroPmcSettings;
@@ -58,16 +63,18 @@ namespace PostReader.Api.Services
 
         private static List<Result> GetDeserializedJson(string content)
         {
-            if(content == null || !content.Contains("{") || !content.Contains("}"))
-                return new List<Result>();
+            ResultObj? deserialized = new();
 
-            ResultObj? deserialized = JsonConvert.DeserializeObject<ResultObj>(content);
+            try
+            {
+                deserialized = JsonConvert.DeserializeObject<ResultObj>(content);
+            }
+            catch(Exception ex)
+            {
+                //todo: Add Logger
+            }
 
-            if (deserialized == null 
-                || deserialized.ResultList == null || deserialized.ResultList.Result == null)
-                return new List<Result>();
-
-            return deserialized.ResultList.Result;
+            return deserialized?.ResultList?.Result ?? new List<Result>();
         }
 
         private string SearchQuantity(string firstContent, string regexPattern)
