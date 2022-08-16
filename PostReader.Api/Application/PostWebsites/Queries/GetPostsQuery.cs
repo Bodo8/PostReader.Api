@@ -36,7 +36,7 @@ namespace PostReader.Api.Application.PostWebsites.Queries
             int totalResultsOnline = _websitesReaderService.GetTotalResultsOnline();
             string nextCursor = _websitesReaderService.GetNextCursor();
 
-            return _paginationListService.GetPaginatedList(postsDto, 1, 25,nextCursor, totalResultsOnline, word);
+            return _paginationListService.GetPaginatedList(postsDto, 1, 25, nextCursor, totalResultsOnline, word);
         }
     }
 }

@@ -57,25 +57,15 @@ namespace PostReader.Api.Services
                 {
                     pageSize = 99;
                     nextCursor = "*";
+                    result.Clear();
                 }
 
                 List<Result> deserializedNext = await GetResults(word, nextCursor, cancellationToken, true, pageSize);
-
-                if (_totalResultsOnline < 100)
-                    result.Clear();
 
                 result.AddRange(deserializedNext);
             }
 
             return _mapper.Map<List<PostWebsite>>(result);
-        }
-
-        private string SearchNextCursor(string content)
-        {
-            string nextCursor = SearchQuantity(content, _euroPmcSettings.RegexNext);
-            nextCursor = nextCursor.Replace("/", "%2F").Replace("=", "%3D");
-
-            return nextCursor;
         }
 
         private async Task<List<Result>> GetResults
@@ -110,6 +100,14 @@ namespace PostReader.Api.Services
         public string GetNextCursor()
         {
             return _nextCursor;
+        }
+
+        private string SearchNextCursor(string content)
+        {
+            string nextCursor = SearchQuantity(content, _euroPmcSettings.RegexNext);
+            nextCursor = nextCursor.Replace("/", "%2F").Replace("=", "%3D").Replace("+", "%2B");
+
+            return nextCursor;
         }
 
         private static List<Result> GetDeserializedJson(string content)
