@@ -3,6 +3,7 @@ using FluentAssertions;
 using Newtonsoft.Json;
 using NSubstitute;
 using PostReader.Api.Application.PostWebsites.Mappings;
+using PostReader.Api.Application.PostWebsites.Queries;
 using PostReader.Api.Common.CommonModels.Settings;
 using PostReader.Api.Common.Interfaces;
 using PostReader.Api.Infrastructure.Services.JsonModels;
@@ -36,24 +37,31 @@ namespace PostReader.Api.Unit.Tests.Services
         }
 
         [Fact]
-        public async void GetPosts_ReturnsTwentyThreeOfPosts()
+        public async void GetPosts_ReturnsSeventyFiveOfPosts()
         {
             //arrange 
-            string posts = File.ReadAllText("..\\..\\..\\assets\\.euroJson.txt");
+            string posts = File.ReadAllText("..\\..\\..\\assets\\.euroJsonFirst.txt");
+            string postsSecond = File.ReadAllText("..\\..\\..\\assets\\.euroJsonSecond.txt");
+            string word = "test";
+            string nextCursor = "AB";
+            var pathFirst = CreatePath(word, "*");
+            var pathTwo = CreatePath(word, nextCursor, 50);
             _requestWebsiteServicesMock.MakeGetRequestAsync(
-                Arg.Any<string>(), CancellationToken.None, Arg.Any<bool>()).Returns(Task.FromResult(posts)
+                pathFirst, CancellationToken.None, true).Returns(Task.FromResult(posts)
                 );
-            string sentence = "home car kitchen office mapping dictionary";
-            int ExpectedNumberOfPosts = 23;
+            _requestWebsiteServicesMock.MakeGetRequestAsync(
+                pathTwo, CancellationToken.None, true).Returns(Task.FromResult(postsSecond)
+                );
+            int ExpectedNumberOfPosts = 75;
 
             //act
-            var actual = await _sut.GetPosts(sentence, CancellationToken.None);
+            var actual = await _sut.GetPosts(word, CancellationToken.None);
 
             //assert
             actual.Count.Should().Be(ExpectedNumberOfPosts);
-            actual.First().Title.Should().Be("The Privileged Life of a Theoretical Observer.");
-            actual.First().Author.Should().Be("Gough D.");
-            actual.First().FirstPublicationDate.Should().Be(new DateTime(2022, 7, 26));
+            actual.First().Title.Should().Be("Haemorrhagic bullous pyoderma gangrenosum following COVID-19 vaccination.");
+            actual.First().Author.Should().Be("Hung YT, Chung WH, Tsai TF, Chen CB.");
+            actual.First().FirstPublicationDate.Should().Be(new DateTime(2022, 4, 18));
         }
 
         [Fact]
@@ -80,6 +88,17 @@ namespace PostReader.Api.Unit.Tests.Services
             {
                 mc.AddProfile(new PostsWebsiteProfile());
             });
+        }
+
+        private string CreatePath(string word, string nextCursor, int size = 25)
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.Append(_pmcSettings.BaseUrl).Append(_pmcSettings.UrlAjaxFirst)
+                .Append(word).Append(_pmcSettings.UrlAjaxCursor).Append(nextCursor)
+                .Append(_pmcSettings.UrlAjaxMiddle).Append(size)
+                .Append(_pmcSettings.UrlAjaxEnd);
+
+            return builder.ToString();
         }
     }
 }

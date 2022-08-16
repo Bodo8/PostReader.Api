@@ -1,0 +1,1811 @@
+{
+  "version": "6.8",
+  "hitCount": 95,
+  "request": {
+    "queryString": "Cyclosporin dermatology Covid-19",
+    "resultType": "LITE",
+    "pageSize": 25,
+    "synonym": false,
+    "email": "ukpmc-phase3-wp2b---do-not-reply@europepmc.org",
+    "nextCursorMark":"ABC",
+    "sort": ""
+  },
+  "resultList": {
+    "result": [
+	{
+        "id": "33354610",
+        "source": "MED",
+        "pmid": "33354610",
+        "pmcid": "PMC7744797",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7744797"
+          ]
+        },
+        "doi": "10.1016/j.jdcr.2020.10.023",
+        "title": "Bridging to a selective Janus kinase 1 inhibitor in severe atopic dermatitis: An instructive case with upadacitinib.",
+        "authorString": "Nguyen J, Chen JK, Honari G, Pol-Rodriguez M, Ko JM, Chiou AS.",
+        "journalTitle": "JAAD Case Rep",
+        "journalVolume": "7",
+        "pubYear": "2021",
+        "journalIssn": "2352-5126",
+        "pageInfo": "65-67",
+        "pubType": "case reports; case-report",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-11-06",
+        "firstIndexDate": "2020-12-29"
+      },
+      {
+        "id": "33351215",
+        "source": "MED",
+        "pmid": "33351215",
+        "pmcid": "PMC7883044",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7883044"
+          ]
+        },
+        "doi": "10.1111/dth.14691",
+        "title": "The impact of COVID-19 in patients with psoriasis: A multicenter study in Istanbul.",
+        "authorString": "Kara Polat A, Oguz Topal I, Karadag AS, Aksoy H, Koku Aksu AE, Ozkur E, Ozkok Akbulut T, Topaloglu Demir F, Engin B, Uzuncakmak TK, Kıvanc Altunay I.",
+        "journalTitle": "Dermatol Ther",
+        "issue": "1",
+        "journalVolume": "34",
+        "pubYear": "2021",
+        "journalIssn": "1396-0296; 1529-8019; ",
+        "pageInfo": "e14691",
+        "pubType": "research-article; multicenter study; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-12-30",
+        "firstIndexDate": "2020-12-25"
+      },
+      {
+        "id": "32761894",
+        "source": "MED",
+        "pmid": "32761894",
+        "pmcid": "PMC7436872",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7436872"
+          ]
+        },
+        "doi": "10.1111/ddg.14169",
+        "title": "COVID-19 and immunological regulations - from basic and translational aspects to clinical implications.",
+        "authorString": "Schön MP, Berking C, Biedermann T, Buhl T, Erpenbeck L, Eyerich K, Eyerich S, Ghoreschi K, Goebeler M, Ludwig RJ, Schäkel K, Schilling B, Schlapbach C, Stary G, von Stebut E, Steinbrink K.",
+        "journalTitle": "J Dtsch Dermatol Ges",
+        "issue": "8",
+        "journalVolume": "18",
+        "pubYear": "2020",
+        "journalIssn": "1610-0379; 1610-0387; ",
+        "pageInfo": "795-807",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-08-06",
+        "firstIndexDate": "2020-08-09"
+      },
+      {
+        "id": "35316551",
+        "source": "MED",
+        "pmid": "35316551",
+        "pmcid": "PMC9111423",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9111423"
+          ]
+        },
+        "doi": "10.1111/dth.15461",
+        "title": "A systematic review on mucocutaneous presentations after COVID-19 vaccination and expert recommendations about vaccination of important immune-mediated dermatologic disorders.",
+        "authorString": "Seirafianpour F, Pourriyahi H, Gholizadeh Mesgarha M, Pour Mohammad A, Shaka Z, Goodarzi A.",
+        "journalTitle": "Dermatol Ther",
+        "issue": "6",
+        "journalVolume": "35",
+        "pubYear": "2022",
+        "journalIssn": "1396-0296; 1529-8019; ",
+        "pageInfo": "e15461",
+        "pubType": "systematic review; review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-04-11",
+        "firstIndexDate": "2022-03-23"
+      },
+      {
+        "id": "32770592",
+        "source": "MED",
+        "pmid": "32770592",
+        "pmcid": "PMC7435553",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7435553"
+          ]
+        },
+        "doi": "10.1111/dth.14140",
+        "title": "COVID-19 and immunosuppressive therapy in dermatology.",
+        "authorString": "Schwartz RA, Pradhan S, Murrell DF, Jafferany M, Olisova OY, Lomonosov KM, Lotti T, Goldust M.",
+        "journalTitle": "Dermatol Ther",
+        "issue": "6",
+        "journalVolume": "33",
+        "pubYear": "2020",
+        "journalIssn": "1396-0296; 1529-8019; ",
+        "pageInfo": "e14140",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2020-09-03",
+        "firstIndexDate": "2020-08-10"
+      },
+      {
+        "id": "34335579",
+        "source": "MED",
+        "pmid": "34335579",
+        "pmcid": "PMC8317986",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8317986"
+          ]
+        },
+        "doi": "10.3389/fimmu.2021.677957",
+        "title": "The Influence of Corticosteroids, Immunosuppressants and Biologics on Patients With Inflammatory Bowel Diseases, Psoriasis and Rheumatic Diseases in the Era of COVID-19: A Review of Current Evidence.",
+        "authorString": "Zhang M, Bai X, Cao W, Ji J, Wang L, Yang Y, Yang H.",
+        "journalTitle": "Front Immunol",
+        "journalVolume": "12",
+        "pubYear": "2021",
+        "journalIssn": "1664-3224",
+        "pageInfo": "677957",
+        "pubType": "research support, non-u.s. gov't; review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2021-07-08",
+        "firstIndexDate": "2021-08-03"
+      },
+      {
+        "id": "35729678",
+        "source": "MED",
+        "pmid": "35729678",
+        "pmcid": "PMC9213172",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9213172"
+          ]
+        },
+        "doi": "10.1186/s41065-022-00233-0",
+        "title": "Identification of key apoptosis-related genes and immune infiltration in the pathogenesis of psoriasis.",
+        "authorString": "Zou A, Kong Q, Sang H.",
+        "journalTitle": "Hereditas",
+        "issue": "1",
+        "journalVolume": "159",
+        "pubYear": "2022",
+        "journalIssn": "0018-0661; 1601-5223; ",
+        "pageInfo": "26",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-06-22",
+        "firstIndexDate": "2022-06-23"
+      },
+      {
+        "id": "32731331",
+        "source": "MED",
+        "pmid": "32731331",
+        "pmcid": "PMC7463439",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7463439"
+          ]
+        },
+        "doi": "10.3390/biology9080192",
+        "title": "The Antiviral Properties of Cyclosporine. Focus on Coronavirus, Hepatitis C Virus, Influenza Virus, and Human Immunodeficiency Virus Infections. ",
+        "authorString": "Glowacka P, Rudnicka L, Warszawik-Hendzel O, Sikora M, Goldust M, Gajda P, Stochmal A, Blicharz L, Rakowska A, Olszewska M.",
+        "journalTitle": "Biology (Basel)",
+        "issue": "8",
+        "journalVolume": "9",
+        "pubYear": "2020",
+        "journalIssn": "2079-7737",
+        "pageInfo": "E192",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-07-28",
+        "firstIndexDate": "2020-07-31"
+      },
+      {
+        "id": "33948423",
+        "source": "MED",
+        "pmid": "33948423",
+        "pmcid": "PMC8087867",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8087867"
+          ]
+        },
+        "doi": "10.7759/cureus.14783",
+        "title": "A Case of Toxic Epidermal Necrolysis Caused by the Use of Trimethoprim Alone.",
+        "authorString": "Sood M, Oyibo SO, Rajkanna J.",
+        "journalTitle": "Cureus",
+        "issue": "4",
+        "journalVolume": "13",
+        "pubYear": "2021",
+        "journalIssn": "2168-8184",
+        "pageInfo": "e14783",
+        "pubType": "case reports; case-report",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-04-30",
+        "firstIndexDate": "2021-05-06"
+      },
+      {
+        "id": "34518001",
+        "source": "MED",
+        "pmid": "34518001",
+        "pmcid": "PMC7959882",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7959882"
+          ]
+        },
+        "doi": "10.1016/j.clindermatol.2021.01.020",
+        "title": "Drug repurposing of dermatologic medications to treat coronavirus disease 2019: Science or fiction?",
+        "authorString": "Vassileva S, Mateeva V, Drenovska K.",
+        "journalTitle": "Clin Dermatol",
+        "issue": "3",
+        "journalVolume": "39",
+        "pubYear": "2021",
+        "journalIssn": "0738-081x; 1879-1131; ",
+        "pageInfo": "430-445",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-02-02",
+        "firstIndexDate": "2021-09-15"
+      },
+      {
+        "id": "34956807",
+        "source": "MED",
+        "pmid": "34956807",
+        "pmcid": "PMC8694657",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8694657"
+          ]
+        },
+        "doi": "10.7759/cureus.20617",
+        "title": "My Double Trouble: An Autobiographical Case Report of Psoriasis and Psoriatic Arthritis.",
+        "authorString": "Trohman RG.",
+        "journalTitle": "Cureus",
+        "issue": "12",
+        "journalVolume": "13",
+        "pubYear": "2021",
+        "journalIssn": "2168-8184",
+        "pageInfo": "e20617",
+        "pubType": "case reports; case-report",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-12-22",
+        "firstIndexDate": "2021-12-28"
+      },
+      {
+        "id": "32832437",
+        "source": "MED",
+        "pmid": "32832437",
+        "pmcid": "PMC7413441",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7413441"
+          ]
+        },
+        "doi": "10.4103/idoj.idoj_414_20",
+        "title": "Use of Immunosuppressants/Immunomodulators in Autoimmune/Inflammatory Dermatologic Diseases during COVID-19 Pandemic-General Recommendation Based on Available Evidence.",
+        "authorString": "De D, Pandhi D.",
+        "journalTitle": "Indian Dermatol Online J",
+        "issue": "4",
+        "journalVolume": "11",
+        "pubYear": "2020",
+        "journalIssn": "2229-5178; 2249-5673; ",
+        "pageInfo": "526-533",
+        "pubType": "meeting-report; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2020-07-13",
+        "firstIndexDate": "2020-08-24"
+      },
+      {
+        "id": "33936084",
+        "source": "MED",
+        "pmid": "33936084",
+        "pmcid": "PMC8082137",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8082137"
+          ]
+        },
+        "doi": "10.3389/fimmu.2021.656362",
+        "title": "How to Manage COVID-19 Vaccination in Immune-Mediated Inflammatory Diseases: An Expert Opinion by IMIDs Study Group.",
+        "authorString": "Ferretti F, Cannatelli R, Benucci M, Carmagnola S, Clementi E, Danelli P, Dilillo D, Fiorina P, Galli M, Gallieni M, Genovese G, Giorgi V, Invernizzi A, Maconi G, Maier JA, Marzano AV, Morpurgo PS, Nebuloni M, Radovanovic D, Riva A, Rizzardini G, Sabiu G, Santus P, Staurenghi G, Zuccotti G, Sarzi-Puttini PC, Ardizzone S.",
+        "journalTitle": "Front Immunol",
+        "journalVolume": "12",
+        "pubYear": "2021",
+        "journalIssn": "1664-3224",
+        "pageInfo": "656362",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-04-15",
+        "firstIndexDate": "2021-05-04"
+      },
+      {
+        "id": "32358890",
+        "source": "MED",
+        "pmid": "32358890",
+        "pmcid": "PMC7262017",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7262017"
+          ]
+        },
+        "doi": "10.1111/dth.13476",
+        "title": "Cutaneous sıde-effects of the potential COVID-19 drugs.",
+        "authorString": "Türsen Ü, Türsen B, Lotti T.",
+        "journalTitle": "Dermatol Ther",
+        "issue": "4",
+        "journalVolume": "33",
+        "pubYear": "2020",
+        "journalIssn": "1396-0296; 1529-8019; ",
+        "pageInfo": "e13476",
+        "pubType": "research-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 20,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-05-22",
+        "firstIndexDate": "2020-05-05"
+      },
+      {
+        "id": "32881269",
+        "source": "MED",
+        "pmid": "32881269",
+        "pmcid": "PMC7460968",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7460968"
+          ]
+        },
+        "doi": "10.1111/ddg.14194_g",
+        "title": "Systemische Immunsuppression in Zeiten von COVID‐19: Müssen wir umdenken?",
+        "authorString": "Grabbe S, Beissert S, Enk A.",
+        "journalTitle": "J Dtsch Dermatol Ges",
+        "issue": "8",
+        "journalVolume": "18",
+        "pubYear": "2020",
+        "journalIssn": "1610-0379; 1610-0387; ",
+        "pageInfo": "810-814",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-08-01",
+        "firstIndexDate": "2020-09-04"
+      },
+      {
+        "id": "32881300",
+        "source": "MED",
+        "pmid": "32881300",
+        "pmcid": "PMC7461193",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7461193"
+          ]
+        },
+        "doi": "10.1111/ddg.14169_g",
+        "title": "COVID‐19 und Immunregulation – von grundlegenden und translationalen Aspekten zu klinischen Implikationen.",
+        "authorString": "Schön MP, Berking C, Biedermann T, Buhl T, Erpenbeck L, Eyerich K, Eyerich S, Ghoreschi K, Goebeler M, Ludwig RJ, Schäkel K, Schilling B, Schlapbach C, Stary G, von Stebut E, Steinbrink K.",
+        "journalTitle": "J Dtsch Dermatol Ges",
+        "issue": "8",
+        "journalVolume": "18",
+        "pubYear": "2020",
+        "journalIssn": "1610-0379; 1610-0387; ",
+        "pageInfo": "795-809",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-08-01",
+        "firstIndexDate": "2020-09-04"
+      },
+      {
+        "id": "32656939",
+        "source": "MED",
+        "pmid": "32656939",
+        "pmcid": "PMC7404593",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7404593"
+          ]
+        },
+        "doi": "10.1002/rmv.2130",
+        "title": "Lessons from dermatology about inflammatory responses in Covid-19.",
+        "authorString": "Criado PR, Pagliari C, Carneiro FRO, Quaresma JAS.",
+        "journalTitle": "Rev Med Virol",
+        "issue": "5",
+        "journalVolume": "30",
+        "pubYear": "2020",
+        "journalIssn": "1052-9276; 1099-1654; ",
+        "pageInfo": "e2130",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-07-12",
+        "firstIndexDate": "2020-07-15"
+      },
+      {
+        "id": "32915172",
+        "source": "MED",
+        "pmid": "32915172",
+        "pmcid": "PMC7480069",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7480069"
+          ]
+        },
+        "doi": "10.5414/alx02166e",
+        "title": "Use of biologicals in allergic and type-2 inflammatory diseases during the current COVID-19 pandemic: Position paper of Ärzteverband Deutscher Allergologen (AeDA)<sup>A</sup>, Deutsche Gesellschaft für Allergologie und Klinische Immunologie (DGAKI)<sup>B</sup>, Gesellschaft für Pädiatrische Allergologie und Umweltmedizin (GPA)<sup>C</sup>, Österreichische Gesellschaft für Allergologie und Immunologie (ÖGAI)<sup>D</sup>, Luxemburgische Gesellschaft für Allergologie und Immunologie (LGAI)<sup>E</sup>, Österreichische Gesellschaft für Pneumologie (ÖGP)<sup>F</sup> in co-operation with the German, Austrian, and Swiss ARIA groups<sup>G</sup>, and the European Academy of Allergy and Clinical Immunology (EAACI)<sup>H</sup>.",
+        "authorString": "Klimek L, Pfaar O, Worm M, Eiwegger T, Hagemann J, Ollert M, Untersmayr E, Hoffmann-Sommergruber K, Vultaggio A, Agache I, Bavbek S, Bossios A, Casper I, Chan S, Chatzipetrou A, Vogelberg C, Firinu D, Kauppi P, Kolios A, Kothari A, Matucci A, Palomares O, Szépfalusi Z, Pohl W, Hötzenecker W, Rosenkranz AR, Bergmann KC, Bieber T, Buhl R, Buters J, Darsow U, Keil T, Kleine-Tebbe J, Lau S, Maurer M, Merk H, Mösges R, Saloga J, Staubach P, Jappe U, Rabe KF, Rabe U, Vogelmeier C, Biedermann T, Jung K, Schlenter W, Ring J, Chaker A, Wehrmann W, Becker S, Freudelsperger L, Mülleneisen N, Nemat K, Czech W, Wrede H, Brehler R, Fuchs T, Tomazic PV, Aberer W, Fink-Wagner AH, Horak F, Wöhrl S, Niederberger-Leppin V, Pali-Schöll I, Pohl W, Roller-Wirnsberger R, Spranger O, Valenta R, Akdis M, Matricardi PM, Spertini F, Khaltaev N, Michel JP, Nicod L, Schmid-Grendelmeier P, Idzko M, Hamelmann E, Jakob T, Werfel T, Wagenmann M, Taube C, Jensen-Jarolim E, Korn S, Hentges F, Schwarze J, O Mahony L, Knol EF, Del Giacco S, Chivato Pérez T, Bousquet J, Bedbrook A, Zuberbier T, Akdis C, Jutel M.",
+        "journalTitle": "Allergol Select",
+        "journalVolume": "4",
+        "pubYear": "2020",
+        "journalIssn": "2512-8957",
+        "pageInfo": "53-68",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-09-07",
+        "firstIndexDate": "2020-09-12"
+      },
+      {
+        "id": "PPR249296",
+        "source": "PPR",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR249296"
+          ]
+        },
+        "doi": "10.21203/rs.3.rs-51667/v3",
+        "title": "Impact of corticosteroids and immunosuppressive therapies on symptomatic SARS-CoV-2 infection in a large cohort of patients with chronic inflammatory arthritis",
+        "authorString": "Favalli EG, Bugatti S, Klersy C, Biggioggero M, Rossi S, De Lucia O, Bobbio-Pallavicini F, Murgo A, Balduzzi S, Caporali R, Montecucco C.",
+        "pubYear": "2020",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "Research Square",
+          "yearOfPublication": 2020
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-12-04",
+        "firstIndexDate": "2020-12-06",
+        "versionNumber": 3
+      },
+      {
+        "id": "PPR341775",
+        "source": "PPR",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR341775"
+          ]
+        },
+        "doi": "10.2139/ssrn.3748383",
+        "title": "Safety and Efficacy of Upadacitinib in Combination With Topical Corticosteroids in Adolescents and Adults With Moderate-to-Severe Atopic Dermatitis: Results From a Pivotal Phase 3, Randomised, Double-Blind, Placebo-Controlled Study (AD Up)",
+        "authorString": "Reich K, Teixeira HD, Bruin-Weller Md, Bieber T, Soong W, Kabashima K, Werfel T, Zeng J, Huang X, Hu X, Hendrickson B, Ladizinski B, Chu A, Silverberg J.",
+        "pubYear": "2021",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "SSRN",
+          "yearOfPublication": 2021
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2021-04-09",
+        "firstIndexDate": "2021-05-19"
+      },
+      {
+        "id": "35057398",
+        "source": "MED",
+        "pmid": "35057398",
+        "pmcid": "PMC8780297",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8780297"
+          ]
+        },
+        "doi": "10.3390/ma15020682",
+        "title": "Synthesis and Potential Applications of Lipid Nanoparticles in Medicine. ",
+        "authorString": "Musielak E, Feliczak-Guzik A, Nowak I.",
+        "journalTitle": "Materials (Basel)",
+        "issue": "2",
+        "journalVolume": "15",
+        "pubYear": "2022",
+        "journalIssn": "1996-1944",
+        "pageInfo": "682",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-01-17",
+        "firstIndexDate": "2022-01-24"
+      },
+      {
+        "id": "34519063",
+        "source": "MED",
+        "pmid": "34519063",
+        "pmcid": "PMC9292545",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9292545"
+          ]
+        },
+        "doi": "10.1111/all.15089",
+        "title": "Advances and highlights in biomarkers of allergic diseases.",
+        "authorString": "Ogulur I, Pat Y, Ardicli O, Barletta E, Cevhertas L, Fernandez-Santamaria R, Huang M, Bel Imam M, Koch J, Ma S, Maurer DJ, Mitamura Y, Peng Y, Radzikowska U, Rinaldi AO, Rodriguez-Coira J, Satitsuksanoa P, Schneider SR, Wallimann A, Zhakparov D, Ziadlou R, Brüggen MC, van de Veen W, Sokolowska M, Baerenfaller K, Zhang L, Akdis M, Akdis CA.",
+        "journalTitle": "Allergy",
+        "issue": "12",
+        "journalVolume": "76",
+        "pubYear": "2021",
+        "journalIssn": "0105-4538; 1398-9995; ",
+        "pageInfo": "3659-3686",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp"
+          ]
+        },
+        "firstPublicationDate": "2021-09-27",
+        "firstIndexDate": "2021-09-15"
+      },
+      {
+        "id": "33380344",
+        "source": "MED",
+        "pmid": "33380344",
+        "pmcid": "PMC7772957",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7772957"
+          ]
+        },
+        "doi": "10.1186/s13075-020-02395-6",
+        "title": "Impact of corticosteroids and immunosuppressive therapies on symptomatic SARS-CoV-2 infection in a large cohort of patients with chronic inflammatory arthritis.",
+        "authorString": "Favalli EG, Bugatti S, Klersy C, Biggioggero M, Rossi S, De Lucia O, Bobbio-Pallavicini F, Murgo A, Balduzzi S, Caporali R, Montecucco C.",
+        "journalTitle": "Arthritis Res Ther",
+        "issue": "1",
+        "journalVolume": "22",
+        "pubYear": "2020",
+        "journalIssn": "1478-6354; 1478-6362; ",
+        "pageInfo": "290",
+        "pubType": "clinical trial; research-article; multicenter study; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-12-30",
+        "firstIndexDate": "2021-01-01"
+      },
+      {
+        "id": "35445962",
+        "source": "MED",
+        "pmid": "35445962",
+        "pmcid": "PMC9022060",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9022060"
+          ]
+        },
+        "doi": "10.1007/s13555-022-00723-z",
+        "title": "Quantifying Physician Preferences for Systemic Atopic Dermatitis Treatments Using a Discrete-Choice Experiment.",
+        "authorString": "Carrascosa Carrillo JM, Baselga Torres E, Gilaberte Calzada Y, Jurgens Martínez YN, Roustan Gullón G, Yanguas Bayona JI, Gómez Castro S, Ferrario MG, Rebollo Laserna FJ.",
+        "journalTitle": "Dermatol Ther (Heidelb)",
+        "issue": "5",
+        "journalVolume": "12",
+        "pubYear": "2022",
+        "journalIssn": "2193-8210; 2190-9172; ",
+        "pageInfo": "1197-1210",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-04-21",
+        "firstIndexDate": "2022-04-22"
+      },
+      {
+        "id": "32559324",
+        "source": "MED",
+        "pmid": "32559324",
+        "pmcid": "PMC7323083",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7323083"
+          ]
+        },
+        "doi": "10.1111/dth.13859",
+        "title": "Unraveling the mystery of Covid-19 cytokine storm: From skin to organ systems.",
+        "authorString": "Garg S, Garg M, Prabhakar N, Malhotra P, Agarwal R.",
+        "journalTitle": "Dermatol Ther",
+        "issue": "6",
+        "journalVolume": "33",
+        "pubYear": "2020",
+        "journalIssn": "1396-0296; 1529-8019; ",
+        "pageInfo": "e13859",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-07-07",
+        "firstIndexDate": "2020-06-20"
+      },
+      {
+        "id": "35392134",
+        "source": "MED",
+        "pmid": "35392134",
+        "pmcid": "PMC8982145",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8982145"
+          ]
+        },
+        "doi": "10.3389/fendo.2022.779915",
+        "title": "Advances in Knowledge and Management of Immune-Related Adverse Events in Cancer Immunotherapy.",
+        "authorString": "Olsen TA, Zhuang TZ, Caulfield S, Martini DJ, Brown JT, Carthon BC, Kucuk O, Harris W, Bilen MA, Nazha B.",
+        "journalTitle": "Front Endocrinol (Lausanne)",
+        "journalVolume": "13",
+        "pubYear": "2022",
+        "journalIssn": "1664-2392",
+        "pageInfo": "779915",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-03-22",
+        "firstIndexDate": "2022-04-11"
+      },
+      {
+        "id": "33664060",
+        "source": "MED",
+        "pmid": "33664060",
+        "pmcid": "PMC8224398",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8224398"
+          ]
+        },
+        "doi": "10.1126/sciimmunol.abg6461",
+        "title": "SARS-CoV-2 mutations in MHC-I-restricted epitopes evade CD8+ T cell responses. ",
+        "authorString": "Agerer B, Koblischke M, Gudipati V, Montaño-Gutierrez LF, Smyth M, Popa A, Genger JW, Endler L, Florian DM, Mühlgrabner V, Graninger M, Aberle SW, Husa AM, Shaw LE, Lercher A, Gattinger P, Torralba-Gombau R, Trapin D, Penz T, Barreca D, Fae I, Wenda S, Traugott M, Walder G, Pickl WF, Thiel V, Allerberger F, Stockinger H, Puchhammer-Stöckl E, Weninger W, Fischer G, Hoepler W, Pawelka E, Zoufaly A, Valenta R, Bock C, Paster W, Geyeregger R, Farlik M, Halbritter F, Huppa JB, Aberle JH, Bergthaler A.",
+        "journalTitle": "Sci Immunol",
+        "issue": "57",
+        "journalVolume": "6",
+        "pubYear": "2021",
+        "journalIssn": "2470-9468",
+        "pageInfo": "eabg6461",
+        "pubType": "im; research support, non-u.s. gov't; research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 41,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "gen",
+            "refseq",
+            "uniprot",
+            "ega"
+          ]
+        },
+        "firstPublicationDate": "2021-03-01",
+        "firstIndexDate": "2021-03-06"
+      },
+      {
+        "id": "32520312",
+        "source": "MED",
+        "pmid": "32520312",
+        "pmcid": "PMC7314090",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7314090"
+          ]
+        },
+        "doi": "10.1093/ecco-jcc/jjaa120",
+        "title": "Safety of Drugs During Previous and Current Coronavirus Pandemics: Lessons for Inflammatory Bowel Disease.",
+        "authorString": "Sebastian S, Gonzalez HA, Peyrin-Biroulet L.",
+        "journalTitle": "J Crohns Colitis",
+        "issue": "11",
+        "journalVolume": "14",
+        "pubYear": "2020",
+        "journalIssn": "1873-9946; 1876-4479; ",
+        "pageInfo": "1632-1643",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-11-01",
+        "firstIndexDate": "2020-06-10"
+      },
+      {
+        "id": "32639598",
+        "source": "MED",
+        "pmid": "32639598",
+        "pmcid": "PMC7361075",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7361075"
+          ]
+        },
+        "doi": "10.1111/tid.13404",
+        "title": "SARS-CoV2 and immunosuppression: A double-edged sword.",
+        "authorString": "Lai Q, Spoletini G, Bianco G, Graceffa D, Agnes S, Rossi M, Lerut J.",
+        "journalTitle": "Transpl Infect Dis",
+        "issue": "6",
+        "journalVolume": "22",
+        "pubYear": "2020",
+        "journalIssn": "1398-2273; 1399-3062; ",
+        "pageInfo": "e13404",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-07-17",
+        "firstIndexDate": "2020-07-15"
+      },
+      {
+        "id": "PMC9170876",
+        "source": "PMC",
+        "pmcid": "PMC9170876",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9170876"
+          ]
+        },
+        "title": "15th Congress of the European Association for Clinical Pharmacology and Therapeutics (EACPT)",
+        "journalTitle": "Eur J Clin Pharmacol",
+        "issue": "suppl 1",
+        "journalVolume": "78",
+        "pubYear": "2022",
+        "journalIssn": "0031-6970; 1432-1041; ",
+        "pageInfo": "1-163",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "bioproject",
+            "refsnp",
+            "eudract",
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2022-01-01",
+        "firstIndexDate": "2022-06-30"
+      },
+      {
+        "id": "32371418",
+        "source": "MED",
+        "pmid": "32371418",
+        "pmcid": "PMC7354033",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7354033"
+          ]
+        },
+        "doi": "10.7861/clinmed.2020-0149",
+        "title": "Identifying rheumatic disease patients at high risk and requiring shielding during the COVID-19 pandemic. ",
+        "authorString": "Price E, MacPhie E, Kay L, Lanyon P, Griffiths B, Holroyd C, Abhishek A, Youngstein T, Bailey K, Clinch J, Shaikh M, Rivett A.",
+        "journalTitle": "Clin Med (Lond)",
+        "pubYear": "2020",
+        "journalIssn": "1470-2118; 1473-4893; ",
+        "pageInfo": "clinmed.2020-0149",
+        "pubType": "other; im; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-05-05",
+        "firstIndexDate": "2020-05-12"
+      },
+      {
+        "id": "35514989",
+        "source": "MED",
+        "pmid": "35514989",
+        "pmcid": "PMC9065717",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9065717"
+          ]
+        },
+        "doi": "10.3389/fimmu.2022.874108",
+        "title": "Rapid Disease Control in First-Line Therapy-Resistant Mucous Membrane Pemphigoid and Bullous Pemphigoid with Omalizumab as Add-On Therapy: A Case Series Of 13 Patients.",
+        "authorString": "Alexandre M, Bohelay G, Gille T, Le Roux-Villet C, Soued I, Morin F, Caux F, Grootenboer-Mignot S, Prost-Squarcioni C.",
+        "journalTitle": "Front Immunol",
+        "journalVolume": "13",
+        "pubYear": "2022",
+        "journalIssn": "1664-3224",
+        "pageInfo": "874108",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-04-20",
+        "firstIndexDate": "2022-05-07"
+      },
+      {
+        "id": "32992409",
+        "source": "MED",
+        "pmid": "32992409",
+        "pmcid": "PMC7537523",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7537523"
+          ]
+        },
+        "doi": "10.1002/cbf.3591",
+        "title": "SARS-COV-2 (COVID-19): Cellular and biochemical properties and pharmacological insights into new therapeutic developments.",
+        "authorString": "Parlakpinar H, Gunata M.",
+        "journalTitle": "Cell Biochem Funct",
+        "issue": "1",
+        "journalVolume": "39",
+        "pubYear": "2021",
+        "journalIssn": "0263-6484; 1099-0844; ",
+        "pageInfo": "10-28",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-09-29",
+        "firstIndexDate": "2020-10-11"
+      },
+      {
+        "id": "34944562",
+        "source": "MED",
+        "pmid": "34944562",
+        "pmcid": "PMC8698272",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8698272"
+          ]
+        },
+        "doi": "10.3390/biomedicines9121746",
+        "title": "Pustular Psoriasis: From Pathophysiology to Treatment. ",
+        "authorString": "Genovese G, Moltrasio C, Cassano N, Maronese CA, Vena GA, Marzano AV.",
+        "journalTitle": "Biomedicines",
+        "issue": "12",
+        "journalVolume": "9",
+        "pubYear": "2021",
+        "journalIssn": "2227-9059",
+        "pageInfo": "1746",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "eudract",
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2021-11-23",
+        "firstIndexDate": "2021-12-25"
+      },
+      {
+        "id": "32546898",
+        "source": "MED",
+        "pmid": "32546898",
+        "pmcid": "PMC7289636",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7289636"
+          ]
+        },
+        "doi": "10.1007/s15007-020-2553-y",
+        "title": "Anwendung von Biologika bei allergischen und Typ-2-entzündlichen Erkrankungen in der aktuellen Covid-19-Pandemie<sup>a, b, c</sup>: Positionspapier des Ärzteverbands Deutscher Allergologen (AeDA)A, der Deutschen Gesellschaft für Allergologie und klinische Immunologie (DGAKI)B, der Gesellschaft für Pädiatrische Allergologie und Umweltmedizin (GPA)C, der Österreichischen Gesellschaft für Allergologie und Immunologie (ÖGAI)D, der Luxemburgischen Gesellschaft für Allergologie und Immunologie (LGAI)E, der Österreichischen Gesellschaft für Pneumologie (ÖGP)F in Kooperation mit der deutschen, österreichischen, und schweizerischen ARIA-GruppeG und der Europäischen Akademie für Allergologie und Klinische Immunologie (EAACI)H.",
+        "authorString": "Klimek L, Pfaar O, Worm M, Eiwegger T, Hagemann J, Ollert M, Untersmayr E, Hoffmann-Sommergruber K, Vultaggio A, Agache I, Bavbek S, Bossios A, Casper I, Chan S, Chatzipetrou A, Vogelberg C, Firinu D, Kauppi P, Kolios A, Kothari A, Matucci A, Palomares O, Szépfalusi Z, Pohl W, Hötzenecker W, Rosenkranz A, Bergmann KC, Bieber T, Buhl R, Buters J, Darsow U, Keil T, Kleine-Tebbe J, Lau S, Maurer M, Merk H, Mösges R, Saloga J, Staubach P, Jappe U, Rabe C, Rabe U, Vogelmeier C, Biedermann T, Jung K, Schlenter W, Ring J, Chaker A, Wehrmann W, Becker S, Freudelsperger L, Mülleneisen N, Nemat K, Czech W, Wrede H, Brehler R, Fuchs T, Tomazic PV, Aberer W, Fink Wagner A, Horak F, Wöhrl S, Niederberger-Leppin V, Pali-Schöll I, Roller-Wirnsberger R, Spranger O, Valenta R, Akdis M, Matricardi PM, Spertini F, Khaltaev N, Michel JP, Nicod L, Schmid-Grendelmeier P, Idzko M, Hamelmann E, Jakob T, Werfel T, Wagenmann M, Taube C, Jensen-Jarolim E, Korn S, Hentges F, Schwarze J, O Mahony L, Knol E, Del Giacco S, Chivato T, Bousquet J, Zuberbier T, Akdis C, Jutel M.",
+        "journalTitle": "Allergo J",
+        "issue": "4",
+        "journalVolume": "29",
+        "pubYear": "2020",
+        "journalIssn": "0941-8849; 2195-6405; ",
+        "pageInfo": "14-27",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-06-24",
+        "firstIndexDate": "2020-06-18"
+      },
+      {
+        "id": "PMC8495465",
+        "source": "PMC",
+        "pmcid": "PMC8495465",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8495465"
+          ]
+        },
+        "title": "Arterial Thromboembolism",
+        "journalTitle": "Res Pract Thromb Haemost",
+        "issue": "suppl 2",
+        "journalVolume": "5",
+        "pubYear": "2021",
+        "journalIssn": "2475-0379",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "ensembl",
+            "refsnp",
+            "refseq",
+            "nct",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2021-10-01",
+        "firstIndexDate": "2021-10-11"
+      },
+      {
+        "id": "33335696",
+        "source": "MED",
+        "pmid": "33335696",
+        "pmcid": "PMC7726838",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7726838"
+          ]
+        },
+        "title": "COVID-19 Mortality in Transplant Recipients.",
+        "authorString": "Alfishawy M, Elbendary A, Mohamed M, Nassar M.",
+        "journalTitle": "Int J Organ Transplant Med",
+        "issue": "4",
+        "journalVolume": "11",
+        "pubYear": "2020",
+        "journalIssn": "2008-6482; 2008-6490; ",
+        "pageInfo": "145-162",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-01-01",
+        "firstIndexDate": "2020-12-24"
+      },
+      {
+        "id": "34831143",
+        "source": "MED",
+        "pmid": "34831143",
+        "pmcid": "PMC8616489",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8616489"
+          ]
+        },
+        "doi": "10.3390/cells10112921",
+        "title": "The Role of Glucocorticoids in Inflammatory Diseases. ",
+        "authorString": "Reichardt SD, Amouret A, Muzzi C, Vettorazzi S, Tuckermann JP, Lühder F, Reichardt HM.",
+        "journalTitle": "Cells",
+        "issue": "11",
+        "journalVolume": "10",
+        "pubYear": "2021",
+        "journalIssn": "2073-4409",
+        "pageInfo": "2921",
+        "pubType": "im; research support, non-u.s. gov't; review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2021-10-28",
+        "firstIndexDate": "2021-12-01"
+      },
+      {
+        "id": "34572593",
+        "source": "MED",
+        "pmid": "34572593",
+        "pmcid": "PMC8470332",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8470332"
+          ]
+        },
+        "doi": "10.3390/biom11091380",
+        "title": "Stress-Induced Epstein-Barr Virus Reactivation. ",
+        "authorString": "Sausen DG, Bhutta MS, Gallo ES, Dahari H, Borenstein R.",
+        "journalTitle": "Biomolecules",
+        "issue": "9",
+        "journalVolume": "11",
+        "pubYear": "2021",
+        "journalIssn": "2218-273x",
+        "pageInfo": "1380",
+        "pubType": "im; review-article; review; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-09-18",
+        "firstIndexDate": "2021-09-29"
+      },
+      {
+        "id": "35645866",
+        "source": "MED",
+        "pmid": "35645866",
+        "pmcid": "PMC9133624",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9133624"
+          ]
+        },
+        "doi": "10.3389/fpsyg.2022.871295",
+        "title": "The Effects of Interacting With a Paro Robot After a Stressor in Patients With Psoriasis: A Randomised Pilot Study.",
+        "authorString": "Law M, Jarrett P, Nieuwoudt MK, Holtkamp H, Giglio C, Broadbent E.",
+        "journalTitle": "Front Psychol",
+        "journalVolume": "13",
+        "pubYear": "2022",
+        "journalIssn": "1664-1078",
+        "pageInfo": "871295",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-05-12",
+        "firstIndexDate": "2022-06-02"
+      },
+      {
+        "id": "34630689",
+        "source": "MED",
+        "pmid": "34630689",
+        "pmcid": "PMC8495539",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8495539"
+          ]
+        },
+        "doi": "10.3892/etm.2021.10770",
+        "title": "Comprehensive review on the pathophysiology, clinical variants and management of pemphigus (Review).",
+        "authorString": "Costan VV, Popa C, Hâncu MF, Porumb-Andrese E, Toader MP.",
+        "journalTitle": "Exp Ther Med",
+        "issue": "5",
+        "journalVolume": "22",
+        "pubYear": "2021",
+        "journalIssn": "1792-0981; 1792-1015; ",
+        "pageInfo": "1335",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-09-20",
+        "firstIndexDate": "2021-10-12"
+      },
+      {
+        "id": "34432141",
+        "source": "MED",
+        "pmid": "34432141",
+        "pmcid": "PMC8386339",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8386339"
+          ]
+        },
+        "doi": "10.1007/s00467-021-05210-9",
+        "title": "Abstracts of the 53rd ESPN Annual Meeting, Amsterdam, The Netherlands, September 2021.",
+        "journalTitle": "Pediatr Nephrol",
+        "pubYear": "2021",
+        "journalIssn": "0931-041x; 1432-198x; ",
+        "pageInfo": "3285-3491",
+        "pubType": "news",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-08-25",
+        "firstIndexDate": "2021-08-26"
+      },
+      {
+        "id": "32991900",
+        "source": "MED",
+        "pmid": "32991900",
+        "pmcid": "PMC7521454",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7521454"
+          ]
+        },
+        "doi": "10.1016/j.ijbiomac.2020.09.204",
+        "title": "Novel insights into the treatment of SARS-CoV-2 infection: An overview of current clinical trials.",
+        "authorString": "Oroojalian F, Haghbin A, Baradaran B, Hemmat N, Shahbazi MA, Baghi HB, Mokhtarzadeh A, Hamblin MR.",
+        "journalTitle": "Int J Biol Macromol",
+        "issue": "pt a",
+        "journalVolume": "165",
+        "pubYear": "2020",
+        "journalIssn": "0141-8130; 1879-0003; ",
+        "pageInfo": "18-43",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-09-28",
+        "firstIndexDate": "2020-10-11"
+      },
+      {
+        "id": "PMC8574945",
+        "source": "PMC",
+        "pmcid": "PMC8574945",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8574945"
+          ]
+        },
+        "title": "Proceedings of the 27th European Paediatric Rheumatology Congress (PReS 2021) : Virtual. 19-21 September 2021",
+        "journalTitle": "Pediatr Rheumatol Online J",
+        "issue": "suppl 1",
+        "journalVolume": "19",
+        "pubYear": "2021",
+        "journalIssn": "1546-0096",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "omim",
+            "nct"
+          ]
+        },
+        "firstPublicationDate": "2021-01-01",
+        "firstIndexDate": "2022-03-16"
+      },
+      {
+        "id": "33151137",
+        "source": "MED",
+        "pmid": "33151137",
+        "pmcid": "PMC8259288",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8259288"
+          ]
+        },
+        "doi": "10.1177/2050640620967898",
+        "title": "A standardised model for stool banking for faecal microbiota transplantation: a consensus report from a multidisciplinary UEG working group.",
+        "authorString": "Keller JJ, Ooijevaar RE, Hvas CL, Terveer EM, Lieberknecht SC, Högenauer C, Arkkila P, Sokol H, Gridnyev O, Mégraud F, Kump PK, Nakov R, Goldenberg SD, Satokari R, Tkatch S, Sanguinetti M, Cammarota G, Dorofeev A, Gubska O, Laniro G, Mattila E, Arasaradnam RP, Sarin SK, Sood A, Putignani L, Alric L, Baunwall SMD, Kupcinskas J, Link A, Goorhuis AG, Verspaget HW, Ponsioen C, Hold GL, Tilg H, Kassam Z, Kuijper EJ, Gasbarrini A, Mulder CJJ, Williams HRT, Vehreschild MJGT.",
+        "journalTitle": "United European Gastroenterol J",
+        "issue": "2",
+        "journalVolume": "9",
+        "pubYear": "2021",
+        "journalIssn": "2050-6406; 2050-6414; ",
+        "pageInfo": "229-247",
+        "pubType": "consensus development conference; research support, non-u.s. gov't; research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-03-09",
+        "firstIndexDate": "2020-11-06"
+      },
+      {
+        "id": "PMC7729290",
+        "source": "PMC",
+        "pmcid": "PMC7729290",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7729290"
+          ]
+        },
+        "title": "61st Annual Conference of Indian Society of Hematology & Blood Transfusion (ISHBT) November 2020",
+        "journalTitle": "Indian J Hematol Blood Transfus",
+        "issue": "suppl 1",
+        "journalVolume": "36",
+        "pubYear": "2020",
+        "journalIssn": "0971-4502; 0974-0449; ",
+        "pageInfo": "1-229",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-11-01",
+        "firstIndexDate": "2020-12-31"
+      },
+      {
+        "id": "PMC8189619",
+        "source": "PMC",
+        "pmcid": "PMC8189619",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8189619"
+          ]
+        },
+        "title": "EHA2021 Virtual Congress Abstract Book",
+        "journalTitle": "Hemasphere",
+        "issue": "suppl ",
+        "journalVolume": "5",
+        "pubYear": "2021",
+        "journalIssn": "2572-9241",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-06-01",
+        "firstIndexDate": "2021-06-14"
+      },
+      {
+        "id": "PMC7592181",
+        "source": "PMC",
+        "pmcid": "PMC7592181",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7592181"
+          ]
+        },
+        "title": "Proceedings of the 26th European Paediatric Rheumatology Congress: part 1 : Virtual. 23 - 26 September 2020",
+        "journalTitle": "Pediatr Rheumatol Online J",
+        "issue": "suppl 2",
+        "journalVolume": "18",
+        "pubYear": "2020",
+        "journalIssn": "1546-0096",
+        "pubType": "abstract",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-01-01",
+        "firstIndexDate": "2020-10-30"
+      },
+      {
+        "id": "33158465",
+        "source": "MED",
+        "pmid": "33158465",
+        "pmcid": "PMC7485448",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7485448"
+          ]
+        },
+        "doi": "10.1016/j.bpg.2020.101682",
+        "title": "Follow-up of liver transplant recipients.",
+        "authorString": "Neuberger J.",
+        "journalTitle": "Best Pract Res Clin Gastroenterol",
+        "journalVolume": "46-47",
+        "pubYear": "2020",
+        "journalIssn": "1521-6918; 1532-1916; ",
+        "pageInfo": "101682",
+        "pubType": "review-article; review; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-06-01",
+        "firstIndexDate": "2020-11-08"
+      },
+      {
+        "id": "35254480",
+        "source": "MED",
+        "pmid": "35254480",
+        "pmcid": "PMC8899446",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8899446"
+          ]
+        },
+        "doi": "10.1007/s00210-022-02205-7",
+        "title": "Abstracts of the 88th Annual Meeting of the German Society for Experimental and Clinical Pharmacology and Toxicology (DGPT).",
+        "journalTitle": "Naunyn Schmiedebergs Arch Pharmacol",
+        "issue": "suppl 1",
+        "journalVolume": "395",
+        "pubYear": "2022",
+        "journalIssn": "0028-1298; 1432-1912; ",
+        "pageInfo": "1-80",
+        "pubType": "abstract; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-03-01",
+        "firstIndexDate": "2022-03-07"
+      }
+	]
+	}
+	}

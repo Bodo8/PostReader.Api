@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Newtonsoft.Json;
+using PostReader.Api.Application.PostWebsites.Queries;
+using PostReader.Api.Common.CommonModels;
 using PostReader.Api.Common.CommonModels.Settings;
 using PostReader.Api.Common.Interfaces;
 using PostReader.Api.Infrastructure.Services.JsonModels;
@@ -15,6 +17,8 @@ namespace PostReader.Api.Services
         private readonly IRequestWebsiteService _requestWebsiteService;
         private readonly IMapper _mapper;
         private readonly EuropePmcSettings _euroPmcSettings;
+        private int _totalResultsOnline;
+        private string _nextCursor;
 
         public WebsiteReaderService
             (
@@ -33,32 +37,61 @@ namespace PostReader.Api.Services
             List<Result> result = new();
             string path = _euroPmcSettings.BaseUrl + _euroPmcSettings.UrlBasePart + word;
             await _requestWebsiteService.MakeGetRequestAsync(path, cancellationToken);
-            path = CreatePath(word , "*");
+            string nextCursor = "*";
+            path = CreatePath(word , nextCursor);
             string content = await _requestWebsiteService.MakeGetRequestAsync(path, cancellationToken, true);
             List<Result> deserialized = GetDeserializedJson(content);
             result.AddRange(deserialized);
             string allPostsString = SearchQuantity(content, _euroPmcSettings.RegexQuntity);
-            int quantityAllPosts = ConvertToInt(allPostsString);
+            _totalResultsOnline = ConvertToInt(allPostsString);
+            
 
-            if (quantityAllPosts == 0)
+            if (_totalResultsOnline == 0)
                 return new List<PostWebsite>();
 
-            if (quantityAllPosts > _euroPmcSettings.DefaultListSize)
+            if (_totalResultsOnline > _euroPmcSettings.DefaultListSize)
             {
-                int pagesTotal = (int)Math.Ceiling((decimal)(quantityAllPosts - 25) / _euroPmcSettings.MaxRequstQuantity);
-
-                for (int i = 0; i < pagesTotal; i++)
-                {
-                    string nextCursor = SearchQuantity(content, _euroPmcSettings.RegexNext);
-                    nextCursor = nextCursor.Replace("/", "%2F").Replace("=", "%3D");
-                    string pathNext = CreatePath(word, nextCursor, _euroPmcSettings.MaxRequstQuantity);
-                    content = await _requestWebsiteService.MakeGetRequestAsync(pathNext, cancellationToken, true);
-                    List<Result> deserializedNext = GetDeserializedJson(content);
-                    result.AddRange(deserializedNext);
-                }
+                nextCursor = SearchNextCursor(content);
+                List<Result> deserializedNext = await GetResults(word, nextCursor, cancellationToken, true);
+                result.AddRange(deserializedNext);
             }
 
             return _mapper.Map<List<PostWebsite>>(result);
+        }
+
+        private string SearchNextCursor(string content)
+        {
+            string nextCursor = SearchQuantity(content, _euroPmcSettings.RegexNext);
+            nextCursor = nextCursor.Replace("/", "%2F").Replace("=", "%3D");
+
+            return nextCursor;
+        }
+
+        private async Task<List<Result>> GetResults(string word, string nextCursor, CancellationToken cancellationToken, bool isAjaxRequest)
+        {
+            string pathNext = CreatePath(word, nextCursor, _euroPmcSettings.MaxRequstQuantity);
+            string content = await _requestWebsiteService.MakeGetRequestAsync(pathNext, cancellationToken, isAjaxRequest);
+            nextCursor = SearchNextCursor(content);
+            _nextCursor = nextCursor;
+
+            return GetDeserializedJson(content);
+        }
+
+        public async Task<List<PostWebsite>> GetPosts(string word, string nextCursor, CancellationToken cancellationToken, bool isAjaxRequest)
+        {
+            List<Result> deserialized = await GetResults(word, nextCursor, cancellationToken, isAjaxRequest);
+
+            return _mapper.Map<List<PostWebsite>>(deserialized);
+        }
+
+        public int GetTotalResultsOnline()
+        {
+            return _totalResultsOnline;
+        }
+
+        public string GetNextCursor()
+        {
+            return _nextCursor;
         }
 
         private static List<Result> GetDeserializedJson(string content)

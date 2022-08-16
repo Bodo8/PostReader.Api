@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using PostReader.Api.Common.CommonModels;
+using PostReader.Api.Infrastructure.Services.JsonModels;
 using PostReader.Api.Models;
 using PostReader.Api.Services.Interfaces;
 
@@ -32,8 +33,10 @@ namespace PostReader.Api.Application.PostWebsites.Queries
             string word = request.Sentence.Replace(" ", "%20");
             List<PostWebsite> posts = await _websitesReaderService.GetPosts(word, cancellationToken);
             List<PostWebsiteDto> postsDto = _mapper.Map<List<PostWebsiteDto>>(posts);
+            int totalResultsOnline = _websitesReaderService.GetTotalResultsOnline();
+            string nextCursor = _websitesReaderService.GetNextCursor();
 
-            return _paginationListService.GetPaginatedList(postsDto, 1, 25);
+            return _paginationListService.GetPaginatedList(postsDto, 1, 25,nextCursor, totalResultsOnline, word);
         }
     }
 }

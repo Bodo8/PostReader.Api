@@ -63,7 +63,7 @@ namespace PostReader.Api.AutomatedUI.Tests
                 rows += rowElement.Count();
             }
 
-            Assert.Equal(totalCount, rows);
+            Assert.Equal(188, rows);
         }
 
         [Fact]
