@@ -45,14 +45,25 @@ namespace PostReader.Api.Services
             string allPostsString = SearchQuantity(content, _euroPmcSettings.RegexQuntity);
             _totalResultsOnline = ConvertToInt(allPostsString);
             
-
             if (_totalResultsOnline == 0)
                 return new List<PostWebsite>();
 
             if (_totalResultsOnline > _euroPmcSettings.DefaultListSize)
             {
                 nextCursor = SearchNextCursor(content);
-                List<Result> deserializedNext = await GetResults(word, nextCursor, cancellationToken, true);
+                var pageSize = _euroPmcSettings.MaxRequstQuantity;
+
+                if (_totalResultsOnline < 100)
+                {
+                    pageSize = 99;
+                    nextCursor = "*";
+                }
+
+                List<Result> deserializedNext = await GetResults(word, nextCursor, cancellationToken, true, pageSize);
+
+                if (_totalResultsOnline < 100)
+                    result.Clear();
+
                 result.AddRange(deserializedNext);
             }
 
@@ -67,9 +78,16 @@ namespace PostReader.Api.Services
             return nextCursor;
         }
 
-        private async Task<List<Result>> GetResults(string word, string nextCursor, CancellationToken cancellationToken, bool isAjaxRequest)
+        private async Task<List<Result>> GetResults
+            
+            (string word,
+            string nextCursor,
+            CancellationToken cancellationToken,
+            bool isAjaxRequest,
+            int pageSize
+            )
         {
-            string pathNext = CreatePath(word, nextCursor, _euroPmcSettings.MaxRequstQuantity);
+            string pathNext = CreatePath(word, nextCursor, pageSize);
             string content = await _requestWebsiteService.MakeGetRequestAsync(pathNext, cancellationToken, isAjaxRequest);
             nextCursor = SearchNextCursor(content);
             _nextCursor = nextCursor;
@@ -79,7 +97,7 @@ namespace PostReader.Api.Services
 
         public async Task<List<PostWebsite>> GetPosts(string word, string nextCursor, CancellationToken cancellationToken, bool isAjaxRequest)
         {
-            List<Result> deserialized = await GetResults(word, nextCursor, cancellationToken, isAjaxRequest);
+            List<Result> deserialized = await GetResults(word, nextCursor, cancellationToken, isAjaxRequest, _euroPmcSettings.MaxRequstQuantity);
 
             return _mapper.Map<List<PostWebsite>>(deserialized);
         }
